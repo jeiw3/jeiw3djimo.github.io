@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+     <link rel="stylesheet" href="styles/main.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Inicio | Djimo</title>
+    </head>
+
+    <body>
+
+      <div class=" black">
+          <div class="container">
+              <nav>
+                  <div class="nav-wrapper black ">
+                      <a href="index.html" class="brand-logo ">DJIMO</a>
+                      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                      <ul class="right hide-on-med-and-down">
+                          <li><a href="index.html">Inicio <i class="material-icons right">home</i></a></li>
+                          <li><a href="#" class="dropdown-trigger" data-target="dropdown-nav">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
+                          <li><a href="acercade.html">Acerca de <i class="material-icons right">account_box</i></a></li>
+                          <li><a href="contactenos.html">Contáctenos <i class="material-icons right">mail</i></a></li>
+                      </ul>
+                  </div>
+                </nav>
+              <!--CONTENT FOR THE SIDENAV-->
+              <ul class="sidenav" id="mobile-nav">
+                <li><a href="index.html">Inicio <i class="material-icons right">home</i></a></li>
+                <li><a href="#" class="dropdown-trigger" data-target="dropdown-side">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="acercade.html">Acerca de <i class="material-icons right">account_box</i></a></li>
+                <li><a href="contactenos.html">Contáctenos <i class="material-icons right">mail</i></a></li>
+              </ul>
+            
+        
+                <!-----------CONTENT OF DROPDOWN NAV-->
+                <ul id="dropdown-nav" class="dropdown-content pink" >
+                    <li ><a href="productos/productos/camisas.html" class="white-text">Camisas</a></li>
+                    <li><a href="productos/productos/botellastazas.html" class="white-text">Botellas y tazas</a></li>
+                    <li><a href="productos/productos/accesorios.html" class="white-text">Accesorios</a></li>
+                    <li><a href="productos/productos/disenografico.html" class="white-text">Diseño gráfico</a></li>
+                </ul>
+                <ul id="dropdown-side" class="dropdown-content pink" >
+                    <li ><a href="productos/productos/camisas.html" class="white-text">Camisas</a></li>
+                    <li><a href="productos/productos/botellastazas.html" class="white-text">Botellas y tazas</a></li>
+                    <li><a href="productos/productos/accesorios.html" class="white-text">Accesorios</a></li>
+                    <li><a href="productos/productos/disenografico.html" class="white-text">Diseño gráfico</a></li>
+                </ul>
+          </div>
+        </div>  
+
+
+    <!--SECCION DE SLIDE Contenidos principales-->
+    <div class="section">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img class="responsive-img"src="https://images.pexels.com/photos/190930/pexels-photo-190930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Regala">
+                    <div class="caption center-align ">
+                        <h3 class="black-text ">Lorem, ipsum dolor.</h3>
+                        <h5 class="dark black-text">Lorem ipsum dolor sit amet.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img class="responsive-img"src="https://images.pexels.com/photos/1767016/pexels-photo-1767016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Regala">
+                    <div class="caption right-align ">
+                        <h3 class="white-text ">Lorem, ipsum dolor.</h3>
+                        <h5 class="white-text">Lorem ipsum dolor sit amet.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img class="responsive-img"src="https://images.pexels.com/photos/3740233/pexels-photo-3740233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Regala">
+                    <div class="caption left-align">
+                        <h3 class="black-text ">Lorem, ipsum dolor.</h3>
+                        <h5 class="black-text">Lorem ipsum dolor sit amet.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+<!--CONTENIDO DE CARDS-->
+    <div class="section card-contain center ">
+        <div class="container center">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card pink darken-1 "onmouseover="this.className+='animate__animated animate__pulse'" onmouseout="this.className+='card pink darken-1 '">
+                        <div class="card-image">
+                            <img class="responsive-img" src="https://images.pexels.com/photos/4344320/pexels-photo-4344320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                            <span class="card-title white-text">Lorem, ipsum.</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light teal activator"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                           <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, libero?</p>
+
+                        </div>        
+                        <!--CARD REVEAL CONTENT-->
+                        <div class="card-reveal black left-align" >
+                            <span class="card-title pink-text text-lighten-1">Card Title<i class="material-icons right teal-text">close</i></span>
+                            <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quos!</p>
+                            <a href="#" class="btn">VISITAR</a>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card pink darken-1" onmouseover="this.className+='animate__animated animate__pulse'" onmouseout="this.className+='card pink darken-1 '">
+                        <div class="card-image">
+                            <img class="responsive-img" src="https://images.pexels.com/photos/4344320/pexels-photo-4344320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                            <span class="card-title white-text">Lorem, ipsum.</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light teal activator"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content"  >
+                           <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, libero?</p>
+
+                        </div>        
+                        <!--CARD REVEAL CONTENT-->
+                        <div class="card-reveal left-align black" >
+                            <span class="card-title pink-text text-lighten-1">Card Title<i class="material-icons right teal-text">close</i></span>
+                            <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quos!</p>
+                            <a href="#" class="btn">VISITAR</a>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card pink darken-1 " onmouseover="this.className+='animate__animated animate__pulse'" onmouseout="this.className+='card pink darken-1 '">
+                        <div class="card-image">
+                            <img class="responsive-img" src="https://images.pexels.com/photos/4344320/pexels-photo-4344320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                            <span class="card-title white-text">Lorem, ipsum.</span>
+                            <a class="btn-floating halfway-fab waves-effect waves-light teal activator"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content"  >
+                           <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, libero?</p>
+
+                        </div>        
+                        <!--CARD REVEAL CONTENT-->
+                        <div class="card-reveal left-align black" >
+                            <span class="card-title pink-text text-lighten-1">Card Title<i class="material-icons right teal-text">close</i></span>
+                            <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quos!</p>
+                            <a href="#" class="btn">VISITAR</a>
+                    
+                        </div>  
+                    </div>
+            
+                </div>            
+        
+            </div>
+    
+        </div>
+        
+    </div>
+
+    <!---------------------------------------FIN DELOS CARDS Y EMPIEZO FOOTER----------------------------------->
+       
+    <div class="section footer  " style="padding-bottom: 0px;">
+        <footer class="page-footer black">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text center-align">PLATAFORMA D'JIMO</h5>
+                  <p class="grey-text text-lighten-4 center-align">Sitio web en constante desarrollo para una mejor y simple experiencia de navegación y usabilidad</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text center-align">REDES SOCIALES</h5>
+                  <ul class="center"> 
+                    <li><a class="blue-text text-lighten-2" href="https://www.facebook.com/djimo16/?hc_ref=ARS_3kNPsuiab_PynX56p4brbcutkYAiFSlCpHDg7FwTfd3IMF6g3HL157t62BaIfMs&fref=nf&__tn__=kC-R">Facebook</a></li>
+                    <li><a class="pink-text " href="#!">Instagram</a></li>
+                    <li><a class="red-text" href="mailto:hellenjimo@hotmail.com">@Email</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright  ">
+              <div class="container center-align">
+                <p>© 2020 D'JIMO Todos los derechos reservados</p>  
+                <a class="grey-text text-lighten-2 " href="!#">Política de privacidad</a>
+              </div>
+            </div>
+          </footer>
+    </div>
+   
+ 
+
+
+
+     <!-- <script src="js/effect.js"></script>-->
+      <script src="js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
+        

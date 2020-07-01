@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+     <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contactenos | Djimo</title>
+    </head>
+
+    <body>
+
+        <div class=" black">
+            <div class="container">
+                <nav>
+                    <div class="nav-wrapper black">
+                        <a href="index.html" class="brand-logo ">DJIMO</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html" >Inicio <i class="material-icons right">home</i></a></li>
+                            <li><a href="#" class="dropdown-trigger" data-target="dropdown">Productos <i class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a href="acercade.html">Acerca de <i class="material-icons right">account_box</i></a></li>
+                            <li><a href="contactenos.html">Contáctenos <i class="material-icons right">mail</i></a></li>
+                        </ul>
+                    </div>
+                  </nav>
+                  
+                  <!--Contenido de los dropdowns-->
+                  <ul id="dropdown" class="dropdown-content pink" >
+                      <li ><a href="productos/productos/camisas.html" class="white-text">Camisas</a></li>
+                      <li><a href="productos/productos/botellastazas.html" class="white-text">Botellas y tazas</a></li>
+                      <li><a href="productos/productos/accesorios.html" class="white-text">Accesorios</a></li>
+                      <li><a href="productos/productos/disenografico.html" class="white-text">Diseño gráfico</a></li>
+                  </ul>
+                  <ul id="dropdown-side" class="dropdown-content pink" >
+                      <li ><a href="productos/productos/camisas.html" class="white-text">Camisas</a></li>
+                      <li><a href="productos/productos/botellastazas.html" class="white-text">Botellas y tazas</a></li>
+                      <li><a href="productos/productos/accesorios.html" class="white-text">Accesorios</a></li>
+                      <li><a href="productos/productos/disenografico.html" class="white-text">Diseño gráfico</a></li>
+                  </ul>
+                <!--CONTENT FOR THE SIDENAV-->
+                <ul class="sidenav pink" id="mobile-nav">
+                      <li><a href="index.html">Inicio <i class="material-icons right">home</i></a></li>
+                      <li><a href="#" class="dropdown-trigger" data-target="dropdown-side">Productos <i class="material-icons right">arrow_drop_down</i></a></li>
+                      <li><a href="acercade.html">Acerca de <i class="material-icons right">account_box</i></a></li>
+                      <li><a href="contactenos.html">Contáctenos <i class="material-icons right">mail</i></a></li>
+                </ul>
+               
+            </div>
+          </div>
+          <!--finalizacion del nav-->
+  
+  
+
+
+        <!--seccion del formulario de contacto-->
+        <div class="container section " style="margin-top: 50px;margin-bottom: 100px;">
+            <div class="row">
+                <div class="col s8"><!--aqui estara solamente el formulario-->
+                    <form action="#" class="col s12 m10">
+                        <div class="input-field">
+                            <input type="text" id="nombreUs" class="validate">
+                            <label for="nombreUs">Nombre de usuario</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" id="emailUs" class="validate">
+                            <label for="emailUs">Email de contacto</label>
+                            <span class="helper-text" data-error="Upps! email inválido" data-success="Yess! email válido"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="number" id="telUs" >
+                            <label for="texlUs">Teléfono de contacto</label>
+                            <span id="helper-telUs" class="helper-text" data-error="Upps! número de teléfono incorrecto" data-success="Yess! número correcto"></span>
+
+                        </div>
+                        <div class="input-field">
+                            <textarea  id="textarea2" class="materialize-textarea" data-length="10"></textarea>
+                            <label for="textarea2">Mensaje que desea enviar</label>
+                            <span class="helper-text" data-error="Error en el mensaje" data-success="Mensaje correcto"></span>
+                        </div>
+                       
+                        <button class="btn waves-effect  green btn-small" name="action" type="submit">ENVIAR FORMULARIO</button>
+                        
+                    </form>
+                </div>
+                <div class="col s12 m4  right">
+                    <ul class="collection with-header">
+                        <li class="collection-header  yellow">Ejemplos de consultas a realizar</li>
+                        <li class="collection-item">Costo del producto de su interés</li>
+                        <li class="collection-item">Por cuál medio realizan los envíos</li>
+                        <li class="collection-item">Tiempo de entrega desde que se solicita un producto</li>
+                        <li class="collection-item">Pedidos especiales</li>
+                        <li class="collection-item">Existencias de productos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+     
+
+
+<!----------------------------footer-->
+<div class="section footer  " style="padding-bottom: 0px;">
+  <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text center-align">PLATAFORMA D'JIMO</h5>
+            <p class="grey-text text-lighten-4 center-align">Sitio web en constante desarrollo para una mejor y simple experiencia de navegación y usabilidad</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text center-align">REDES SOCIALES</h5>
+            <ul class="center"> 
+              <li><a class="blue-text text-lighten-2" href="https://www.facebook.com/djimo16/?hc_ref=ARS_3kNPsuiab_PynX56p4brbcutkYAiFSlCpHDg7FwTfd3IMF6g3HL157t62BaIfMs&fref=nf&__tn__=kC-R">Facebook</a></li>
+              <li><a class="pink-text " href="#!">Instagram</a></li>
+              <li><a class="red-text" href="mailto:hellenjimo@hotmail.com">@Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright  ">
+        <div class="container center-align">
+          <p>© 2020 D'JIMO Todos los derechos reservados</p>  
+          <a class="grey-text text-lighten-2 " href="!#">Política de privacidad</a>
+        </div>
+      </div>
+    </footer>
+</div>
+       
+     
+    
+    
+    
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          <script src="js/main.js"></script>
+    </body>
+    
+    
+</html>
+            
