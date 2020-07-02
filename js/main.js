@@ -30,6 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
     //Init materialboxed
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems);
+
 });
 
+//Cambiamos el color de todos los botones al mismo color
+let botones=document.getElementsByClassName("btn-producto")
+for(i=0;i<botones.length;i++){
+    botones[i].className="btn-small teal modal-trigger btn-producto"
+    botones[i].innerHTML='<i class="material-icons">local_mall</i>'
+}
 

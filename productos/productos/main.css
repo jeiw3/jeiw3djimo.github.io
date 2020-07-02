@@ -1,23 +1,8 @@
-
-.card-contain{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.card{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .titulo-nav-header{
     font-family: 'Yellowtail',cursive;
 }
 
 
-
-
-
-/*ESTILOS PARA EL FOOTER, PEQUEÑAS MODIFICACIONES*/
 .enlace-footer{
     text-decoration: underline;
     color:white;
@@ -25,4 +10,14 @@
 }
 .politica-privacidad{
     text-decoration: underline;
+}
+
+a.btn-producto{
+    width: 90%;
+}
+
+@media screen and (max-width:600px){
+    .titulo-producto{
+        font-size: 3em;
+    }
 }
