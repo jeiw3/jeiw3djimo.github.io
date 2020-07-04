@@ -16,8 +16,24 @@ a.btn-producto{
     width: 90%;
 }
 
-@media screen and (max-width:600px){
-    .titulo-producto{
-        font-size: 3em;
+.card-content span{
+        font-size: smaller;
+    }
+
+@media screen and (min-width: 320px) and (max-width:599px){
+    .section{
+        width: 100%;
+    }
+    .card.small{
+        height: 380px;
+    }
+    .card-content p{
+        font-size: smaller;
+    }
+    .card-reveal span p{
+        font-size: smaller;
+    }
+    .card-image img{
+        height: 150px;
     }
 }

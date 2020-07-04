@@ -26,3 +26,27 @@
 .politica-privacidad{
     text-decoration: underline;
 }
+
+
+/*RESPONSIVE PARA EL SLIDER*/
+
+@media screen and (min-width:320px) and (max-width:599px){
+    .slides li h3{
+        width: 100%;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    .slides li h5{
+        font-size: 1.5em;
+    }
+    .caption{
+        margin-top: 20%;
+    }
+    /*Responsive para la página acerca de*/
+    .acerca-de-info-empresa h3{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+}
+
