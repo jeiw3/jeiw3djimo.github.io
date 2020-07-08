@@ -56,32 +56,36 @@
 
 
         <!--seccion del formulario de contacto-->
-        <div class="container section " style="margin-top: 50px;margin-bottom: 100px;">
+        <div class="container section " id="main" style="margin-top: 50px;margin-bottom: 100px;">
             <div class="row"style>
                 <div class="col s12 m8" style="margin-bottom: 50px;"><!--aqui estara solamente el formulario-->
                     <form action="#" class="col s12 m10">
                         <div class="input-field">
-                            <input type="text" id="nombreUs" class="validate">
+                            <input type="text" id="nombreUs" required >
                             <label for="nombreUs">Nombre de usuario</label>
+                            <div class="chip estadoEntrada " style="display: none;width: fit-content;margin:2px;">
+                            </div>
                         </div>
                         <div class="input-field">
-                            <input type="email" id="emailUs" class="validate">
+                            <input type="email" id="emailUs" required>
                             <label for="emailUs">Email de contacto</label>
-                            <span class="helper-text" data-error="Upps! email inválido" data-success="Yess! email válido"></span>
+                            <div class="chip estadoEntrada " style="display: none; width:fit-content; margin: 2px;">
+                            </div>
                         </div>
                         <div class="input-field">
-                            <input type="number" id="telUs" >
-                            <label for="texlUs">Teléfono de contacto</label>
-                            <span id="helper-telUs" class="helper-text" data-error="Upps! número de teléfono incorrecto" data-success="Yess! número correcto"></span>
+                            <input type="number" id="telUs" required>
+                            <label for="telUs">Teléfono de contacto</label>
+                            <div class="chip estadoEntrada " style="display: none; width: fit-content; margin: 2px;">
+                            </div>
 
                         </div>
                         <div class="input-field">
-                            <textarea  id="textarea2" class="materialize-textarea" data-length="10"></textarea>
+                            <textarea  id="textarea2" class="materialize-textarea" required></textarea>
                             <label for="textarea2">Mensaje que desea enviar</label>
-                            <span class="helper-text" data-error="Error en el mensaje" data-success="Mensaje correcto"></span>
+                            <span ></span>
                         </div>
                        
-                        <button class="btn waves-effect  teal btn-small" name="action" type="submit">ENVIAR FORMULARIO</button>
+                        <button class="btn waves-effect  teal btn-small" type="submit" onclick="validarFormulario()">ENVIAR FORMULARIO</button>
                         
                     </form>
                 </div>
@@ -137,6 +141,9 @@
           
           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
           <script src="js/main.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+          <script src="envioFormulario.js"></script>
     </body>
     
     

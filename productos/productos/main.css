@@ -20,12 +20,17 @@ a.btn-producto{
         font-size: smaller;
     }
 
+.card.small{
+    height: 450px;
+}
+
+
 @media screen and (min-width: 320px) and (max-width:599px){
     .section{
         width: 100%;
     }
     .card.small{
-        height: 380px;
+        height: 450px;
     }
     .card-content p{
         font-size: smaller;
