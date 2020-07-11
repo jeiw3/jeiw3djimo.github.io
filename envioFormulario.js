@@ -79,16 +79,4 @@ function validarFormulario(){
     }
 
 }
-    //agregamos los datos a la coleccion formularios de firebase
-    /*db.collection("formularios").add({
-        nombreUsuario: nombreUs,
-        telefonoUsuario:telUs,
-        correoUsuario: correoUs,
-        mensajeUsuario: mensajeUs
-    })
-    .then(function(docRef) {
-        console.log("Document written with ID: ", docRef.id);
-    })
-    .catch(function(error) {
-        console.error("Error adding document: ", error);
-    });*/
+    
